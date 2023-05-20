@@ -46,7 +46,7 @@ public class Main {
 
                 for(int d = 0; d <3; d++){
                     int nx = i +dx[d];// 행
-                    int ny = i +dy[d];// 열
+                    int ny = j +dy[d];// 열
 
                     if(nx <0 || ny < 0 || nx >= N || ny >= M) continue;
                     int cell = board[nx][ny];
